@@ -1,28 +1,60 @@
-# 25ws-42.17
+# 25ws-42.17 – Societal Challenges Datathon
 
-Repository template for the 42.17 "Societal challenges datathon" course at RWTH
+NAME : MANKIRAT SINGH SAINI
 
-- Fork this repo
-- Work in your own fork and update changes there
-- Use the `main.ipynb` for your main results, you can create other notebooks for accessory work if you so desire
+---
 
-## Create the virtual environment
+## 📌 Project Overview
 
-Install the [uv python package manager](https://docs.astral.sh/uv/#installation).
+This repository contains the full analysis and modeling workflow for the datathon project.
 
-Run the following in your console
+All main results and final outputs are contained in:
 
-```bash
-uv sync
 ```
 
+main.ipynb
 
-## Starting
+````
 
-**jupyter lab**
+---
 
-- `uv run jupyter lab`
+## 🛠️ Environment Setup
 
-**vscode**
+This project uses the `uv` Python package manager.
 
-- Open the notebook and select the right kernel
+## ▶️ How to Run the Project
+
+The project is designed to run entirely from the main notebook.
+
+```bash
+uv run jupyter lab
+```
+
+Then open:
+
+```
+main.ipynb
+```
+
+Run all cells sequentially.
+
+
+---
+
+## 📂 Repository Structure
+
+```
+main.ipynb        # Main analysis and final results
+data/             # Dataset files 
+```
+
+---
+
+## ✅ Reproducibility
+
+All results in this project can be reproduced by:
+
+1. Running `uv sync`
+2. Executing all cells in `main.ipynb`
+
+No additional configuration is required.
