@@ -1,0 +1,7 @@
+file,path,n_rows,n_cols,n_missing_total
+diabetes,data/csv_clean/diabetes.csv,11744,9,60768
+bp_chol,data/csv_clean/blood_pressure_cholesterol.csv,8501,6,11074
+functioning,data/csv_clean/functioning.csv,10942,32,185290
+smoking,data/csv_clean/smoking_cigarette_use.csv,9015,9,48299
+oral,data/csv_clean/oral_health.csv,11744,8,19707
+alcohol,data/csv_clean/alcohol_use.csv,6337,9,20155
